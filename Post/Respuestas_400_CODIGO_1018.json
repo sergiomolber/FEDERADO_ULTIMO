@@ -1,10 +1,10 @@
 {
 	"info": {
-		"_postman_id": "c01e1174-f441-456b-878e-29db322f8871",
+		"_postman_id": "f8d25afa-f65c-47f9-bd19-e4bd6e07c347",
 		"name": "Directorio Federado codigos 400-1018",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "29460625",
-		"_collection_link": "https://red-satellite-829132.postman.co/workspace/federado-automatizado~807d004f-834d-4321-8e8c-b996ae6059d7/collection/29460625-c01e1174-f441-456b-878e-29db322f8871?action=share&source=collection_link&creator=29460625"
+		"_collection_link": "https://red-satellite-829132.postman.co/workspace/Federado-nuevo~be46dd53-09bf-4d08-9158-34941a6d4d79/collection/29460625-f8d25afa-f65c-47f9-bd19-e4bd6e07c347?action=share&source=collection_link&creator=29460625"
 	},
 	"item": [
 		{
@@ -104,14 +104,14 @@
 					}
 				},
 				"url": {
-					"raw": "{{base-url}}/fd/entities/2/keys",
+					"raw": "{{base-url}}/fd/entities/{{entidad}}/keys",
 					"host": [
 						"{{base-url}}"
 					],
 					"path": [
 						"fd",
 						"entities",
-						"2",
+						"{{entidad}}",
 						"keys"
 					]
 				}

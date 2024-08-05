@@ -1,10 +1,10 @@
 {
 	"info": {
-		"_postman_id": "d467c477-10c4-445b-af44-26e1ce5f8458",
+		"_postman_id": "5e33ace3-dd23-45fc-b4e6-7f2f708019b5",
 		"name": "Codigos 401 Post",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "29460625",
-		"_collection_link": "https://red-satellite-829132.postman.co/workspace/Federado-nuevo~be46dd53-09bf-4d08-9158-34941a6d4d79/collection/29460625-d467c477-10c4-445b-af44-26e1ce5f8458?action=share&source=collection_link&creator=29460625"
+		"_collection_link": "https://red-satellite-829132.postman.co/workspace/Federado-nuevo~be46dd53-09bf-4d08-9158-34941a6d4d79/collection/29460625-5e33ace3-dd23-45fc-b4e6-7f2f708019b5?action=share&source=collection_link&creator=29460625"
 	},
 	"item": [
 		{
@@ -88,14 +88,14 @@
 					}
 				},
 				"url": {
-					"raw": "{{base-url}}/fd/entities/2/keys",
+					"raw": "{{base-url}}/fd/entities/{{entidad}}/keys",
 					"host": [
 						"{{base-url}}"
 					],
 					"path": [
 						"fd",
 						"entities",
-						"2",
+						"{{entidad}}",
 						"keys"
 					]
 				}

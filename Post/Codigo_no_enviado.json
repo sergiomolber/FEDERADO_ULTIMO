@@ -1,10 +1,10 @@
 {
 	"info": {
-		"_postman_id": "9fed709d-e358-4652-bb25-d22f96554665",
+		"_postman_id": "cf5351cb-5cc3-4e94-858d-ac9c11ceeb9e",
 		"name": "Codigo (no enviado) Post",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "29460625",
-		"_collection_link": "https://red-satellite-829132.postman.co/workspace/Federado-nuevo~be46dd53-09bf-4d08-9158-34941a6d4d79/collection/29460625-9fed709d-e358-4652-bb25-d22f96554665?action=share&source=collection_link&creator=29460625"
+		"_collection_link": "https://red-satellite-829132.postman.co/workspace/Federado-nuevo~be46dd53-09bf-4d08-9158-34941a6d4d79/collection/29460625-cf5351cb-5cc3-4e94-858d-ac9c11ceeb9e?action=share&source=collection_link&creator=29460625"
 	},
 	"item": [
 		{
@@ -105,14 +105,14 @@
 					}
 				},
 				"url": {
-					"raw": "{{base-url}}/fd/entities/2/keys",
+					"raw": "{{base-url}}/fd/entities/{{entidad}}/keys",
 					"host": [
 						"{{base-url}}"
 					],
 					"path": [
 						"fd",
 						"entities",
-						"2",
+						"{{entidad}}",
 						"keys"
 					]
 				}
@@ -217,14 +217,14 @@
 					}
 				},
 				"url": {
-					"raw": "{{base-url}}/fd/entities/2/keys",
+					"raw": "{{base-url}}/fd/entities/{{entidad}}/keys",
 					"host": [
 						"{{base-url}}"
 					],
 					"path": [
 						"fd",
 						"entities",
-						"2",
+						"{{entidad}}",
 						"keys"
 					]
 				}
@@ -329,14 +329,14 @@
 					}
 				},
 				"url": {
-					"raw": "{{base-url}}/fd/entities/2/keys",
+					"raw": "{{base-url}}/fd/entities/{{entidad}}/keys",
 					"host": [
 						"{{base-url}}"
 					],
 					"path": [
 						"fd",
 						"entities",
-						"2",
+						"{{entidad}}",
 						"keys"
 					]
 				}
@@ -441,14 +441,14 @@
 					}
 				},
 				"url": {
-					"raw": "{{base-url}}/fd/entities/2/keys",
+					"raw": "{{base-url}}/fd/entities/{{entidad}}/keys",
 					"host": [
 						"{{base-url}}"
 					],
 					"path": [
 						"fd",
 						"entities",
-						"2",
+						"{{entidad}}",
 						"keys"
 					]
 				}
@@ -553,14 +553,14 @@
 					}
 				},
 				"url": {
-					"raw": "{{base-url}}/fd/entities/2/keys",
+					"raw": "{{base-url}}/fd/entities/{{entidad}}/keys",
 					"host": [
 						"{{base-url}}"
 					],
 					"path": [
 						"fd",
 						"entities",
-						"2",
+						"{{entidad}}",
 						"keys"
 					]
 				}
@@ -665,14 +665,14 @@
 					}
 				},
 				"url": {
-					"raw": "{{base-url}}/fd/entities/2/keys",
+					"raw": "{{base-url}}/fd/entities/{{entidad}}/keys",
 					"host": [
 						"{{base-url}}"
 					],
 					"path": [
 						"fd",
 						"entities",
-						"2",
+						"{{entidad}}",
 						"keys"
 					]
 				}
@@ -777,14 +777,14 @@
 					}
 				},
 				"url": {
-					"raw": "{{base-url}}/fd/entities/2/keys",
+					"raw": "{{base-url}}/fd/entities/{{entidad}}/keys",
 					"host": [
 						"{{base-url}}"
 					],
 					"path": [
 						"fd",
 						"entities",
-						"2",
+						"{{entidad}}",
 						"keys"
 					]
 				}
@@ -1286,14 +1286,14 @@
 					}
 				},
 				"url": {
-					"raw": "{{base-url}}/fd/entities/2/keys",
+					"raw": "{{base-url}}/fd/entities/{{entidad}}/keys",
 					"host": [
 						"{{base-url}}"
 					],
 					"path": [
 						"fd",
 						"entities",
-						"2",
+						"{{entidad}}",
 						"keys"
 					]
 				}
@@ -1397,14 +1397,14 @@
 					}
 				},
 				"url": {
-					"raw": "{{base-url}}/fd/entities/2/keys",
+					"raw": "{{base-url}}/fd/entities/{{entidad}}/keys",
 					"host": [
 						"{{base-url}}"
 					],
 					"path": [
 						"fd",
 						"entities",
-						"2",
+						"{{entidad}}",
 						"keys"
 					]
 				}
@@ -1498,14 +1498,14 @@
 					}
 				},
 				"url": {
-					"raw": "{{base-url}}/fd/entities/2/keys",
+					"raw": "{{base-url}}/fd/entities/{{entidad}}/keys",
 					"host": [
 						"{{base-url}}"
 					],
 					"path": [
 						"fd",
 						"entities",
-						"2",
+						"{{entidad}}",
 						"keys"
 					]
 				}
@@ -1599,14 +1599,14 @@
 					}
 				},
 				"url": {
-					"raw": "{{base-url}}/fd/entities/2/keys",
+					"raw": "{{base-url}}/fd/entities/{{entidad}}/keys",
 					"host": [
 						"{{base-url}}"
 					],
 					"path": [
 						"fd",
 						"entities",
-						"2",
+						"{{entidad}}",
 						"keys"
 					]
 				}
@@ -1710,14 +1710,14 @@
 					}
 				},
 				"url": {
-					"raw": "{{base-url}}/fd/entities/2/keys",
+					"raw": "{{base-url}}/fd/entities/{{entidad}}/keys",
 					"host": [
 						"{{base-url}}"
 					],
 					"path": [
 						"fd",
 						"entities",
-						"2",
+						"{{entidad}}",
 						"keys"
 					]
 				}
@@ -1812,14 +1812,14 @@
 					}
 				},
 				"url": {
-					"raw": "{{base-url}}/fd/entities/2/keys",
+					"raw": "{{base-url}}/fd/entities/{{entidad}}/keys",
 					"host": [
 						"{{base-url}}"
 					],
 					"path": [
 						"fd",
 						"entities",
-						"2",
+						"{{entidad}}",
 						"keys"
 					]
 				}
@@ -1923,14 +1923,14 @@
 					}
 				},
 				"url": {
-					"raw": "{{base-url}}/fd/entities/2/keys",
+					"raw": "{{base-url}}/fd/entities/{{entidad}}/keys",
 					"host": [
 						"{{base-url}}"
 					],
 					"path": [
 						"fd",
 						"entities",
-						"2",
+						"{{entidad}}",
 						"keys"
 					]
 				}
@@ -2034,14 +2034,14 @@
 					}
 				},
 				"url": {
-					"raw": "{{base-url}}/fd/entities/2/keys",
+					"raw": "{{base-url}}/fd/entities/{{entidad}}/keys",
 					"host": [
 						"{{base-url}}"
 					],
 					"path": [
 						"fd",
 						"entities",
-						"2",
+						"{{entidad}}",
 						"keys"
 					]
 				}
@@ -2145,14 +2145,14 @@
 					}
 				},
 				"url": {
-					"raw": "{{base-url}}/fd/entities/2/keys",
+					"raw": "{{base-url}}/fd/entities/{{entidad}}/keys",
 					"host": [
 						"{{base-url}}"
 					],
 					"path": [
 						"fd",
 						"entities",
-						"2",
+						"{{entidad}}",
 						"keys"
 					]
 				}
@@ -2246,14 +2246,14 @@
 					}
 				},
 				"url": {
-					"raw": "{{base-url}}/fd/entities/2/keys",
+					"raw": "{{base-url}}/fd/entities/{{entidad}}/keys",
 					"host": [
 						"{{base-url}}"
 					],
 					"path": [
 						"fd",
 						"entities",
-						"2",
+						"{{entidad}}",
 						"keys"
 					]
 				}
@@ -2357,14 +2357,14 @@
 					}
 				},
 				"url": {
-					"raw": "{{base-url}}/fd/entities/2/keys",
+					"raw": "{{base-url}}/fd/entities/{{entidad}}/keys",
 					"host": [
 						"{{base-url}}"
 					],
 					"path": [
 						"fd",
 						"entities",
-						"2",
+						"{{entidad}}",
 						"keys"
 					]
 				}
@@ -2468,14 +2468,14 @@
 					}
 				},
 				"url": {
-					"raw": "{{base-url}}/fd/entities/2/keys",
+					"raw": "{{base-url}}/fd/entities/{{entidad}}/keys",
 					"host": [
 						"{{base-url}}"
 					],
 					"path": [
 						"fd",
 						"entities",
-						"2",
+						"{{entidad}}",
 						"keys"
 					]
 				}
@@ -2579,14 +2579,14 @@
 					}
 				},
 				"url": {
-					"raw": "{{base-url}}/fd/entities/2/keys",
+					"raw": "{{base-url}}/fd/entities/{{entidad}}/keys",
 					"host": [
 						"{{base-url}}"
 					],
 					"path": [
 						"fd",
 						"entities",
-						"2",
+						"{{entidad}}",
 						"keys"
 					]
 				}
@@ -2690,14 +2690,14 @@
 					}
 				},
 				"url": {
-					"raw": "{{base-url}}/fd/entities/2/keys",
+					"raw": "{{base-url}}/fd/entities/{{entidad}}/keys",
 					"host": [
 						"{{base-url}}"
 					],
 					"path": [
 						"fd",
 						"entities",
-						"2",
+						"{{entidad}}",
 						"keys"
 					]
 				}
@@ -2801,14 +2801,14 @@
 					}
 				},
 				"url": {
-					"raw": "{{base-url}}/fd/entities/2/keys",
+					"raw": "{{base-url}}/fd/entities/{{entidad}}/keys",
 					"host": [
 						"{{base-url}}"
 					],
 					"path": [
 						"fd",
 						"entities",
-						"2",
+						"{{entidad}}",
 						"keys"
 					]
 				}
@@ -2912,14 +2912,14 @@
 					}
 				},
 				"url": {
-					"raw": "{{base-url}}/fd/entities/2/keys",
+					"raw": "{{base-url}}/fd/entities/{{entidad}}/keys",
 					"host": [
 						"{{base-url}}"
 					],
 					"path": [
 						"fd",
 						"entities",
-						"2",
+						"{{entidad}}",
 						"keys"
 					]
 				}
@@ -3023,14 +3023,14 @@
 					}
 				},
 				"url": {
-					"raw": "{{base-url}}/fd/entities/2/keys",
+					"raw": "{{base-url}}/fd/entities/{{entidad}}/keys",
 					"host": [
 						"{{base-url}}"
 					],
 					"path": [
 						"fd",
 						"entities",
-						"2",
+						"{{entidad}}",
 						"keys"
 					]
 				}
@@ -3134,14 +3134,14 @@
 					}
 				},
 				"url": {
-					"raw": "{{base-url}}/fd/entities/2/keys",
+					"raw": "{{base-url}}/fd/entities/{{entidad}}/keys",
 					"host": [
 						"{{base-url}}"
 					],
 					"path": [
 						"fd",
 						"entities",
-						"2",
+						"{{entidad}}",
 						"keys"
 					]
 				}
@@ -3227,14 +3227,14 @@
 					}
 				},
 				"url": {
-					"raw": "{{base-url}}/fd/entities/2/keys",
+					"raw": "{{base-url}}/fd/entities/{{entidad}}/keys",
 					"host": [
 						"{{base-url}}"
 					],
 					"path": [
 						"fd",
 						"entities",
-						"2",
+						"{{entidad}}",
 						"keys"
 					]
 				}
@@ -3338,14 +3338,14 @@
 					}
 				},
 				"url": {
-					"raw": "{{base-url}}/fd/entities/2/keys",
+					"raw": "{{base-url}}/fd/entities/{{entidad}}/keys",
 					"host": [
 						"{{base-url}}"
 					],
 					"path": [
 						"fd",
 						"entities",
-						"2",
+						"{{entidad}}",
 						"keys"
 					]
 				}
@@ -3438,14 +3438,14 @@
 					}
 				},
 				"url": {
-					"raw": "{{base-url}}/fd/entities/2/keys",
+					"raw": "{{base-url}}/fd/entities/{{entidad}}/keys",
 					"host": [
 						"{{base-url}}"
 					],
 					"path": [
 						"fd",
 						"entities",
-						"2",
+						"{{entidad}}",
 						"keys"
 					]
 				}
@@ -3635,14 +3635,14 @@
 					}
 				},
 				"url": {
-					"raw": "{{base-url}}/fd/entities/2/keys",
+					"raw": "{{base-url}}/fd/entities/{{entidad}}/keys",
 					"host": [
 						"{{base-url}}"
 					],
 					"path": [
 						"fd",
 						"entities",
-						"2",
+						"{{entidad}}",
 						"keys"
 					]
 				}
