@@ -1,10 +1,10 @@
 {
 	"info": {
-		"_postman_id": "2ea9326d-fa02-4248-bc75-0f58f186e77e",
+		"_postman_id": "80fb220a-6579-4ae2-a14a-96cb513b2f84",
 		"name": "Codigo 201 Federado",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "29460625",
-		"_collection_link": "https://red-satellite-829132.postman.co/workspace/Federado-nuevo~be46dd53-09bf-4d08-9158-34941a6d4d79/collection/29460625-2ea9326d-fa02-4248-bc75-0f58f186e77e?action=share&source=collection_link&creator=29460625"
+		"_collection_link": "https://red-satellite-829132.postman.co/workspace/Federado-nuevo~be46dd53-09bf-4d08-9158-34941a6d4d79/collection/29460625-80fb220a-6579-4ae2-a14a-96cb513b2f84?action=share&source=collection_link&creator=29460625"
 	},
 	"item": [
 		{
@@ -32,7 +32,8 @@
 						"exec": [
 							"const randomNumber = _.random(1000000000,99999999999)\r",
 							"pm.variables.set(\"randomNumber\", randomNumber );\r",
-							"\r",
+							"const randomCel = _.random(1000000000000,9999999999999)\r",
+							"pm.variables.set(\"randomCel\", randomCel );\r",
 							"// Genera un valor aleatorio\r",
 							"let randomValue = Math.random();\r",
 							"\r",
