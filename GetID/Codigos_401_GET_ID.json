@@ -1,10 +1,10 @@
 {
 	"info": {
-		"_postman_id": "35142058-732c-4487-842d-57dbd4d5f843",
+		"_postman_id": "f4f93563-39fe-4136-a3ab-4c52c86780dc",
 		"name": "Codigos 401",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "29460625",
-		"_collection_link": "https://red-satellite-829132.postman.co/workspace/Federado-nuevo~be46dd53-09bf-4d08-9158-34941a6d4d79/collection/29460625-35142058-732c-4487-842d-57dbd4d5f843?action=share&source=collection_link&creator=29460625"
+		"_collection_link": "https://red-satellite-829132.postman.co/workspace/Federado-nuevo~be46dd53-09bf-4d08-9158-34941a6d4d79/collection/29460625-f4f93563-39fe-4136-a3ab-4c52c86780dc?action=share&source=collection_link&creator=29460625"
 	},
 	"item": [
 		{
@@ -39,36 +39,41 @@
 					},
 					{
 						"key": "message-uuid",
-						"value": "c4e6bd04-5149-11e7-b114-a2f933d5fe66"
+						"value": "{{message-uuid}}",
+						"type": "text"
 					},
 					{
 						"key": "request-app-id",
-						"value": "acxff62e-6f12-42de-9012-1e7304418abd"
+						"value": "{{request-app-id}}",
+						"type": "text"
 					},
 					{
 						"key": "customer-request-dt",
-						"value": "2017-01-24T05:00:00"
+						"value": "{{customer-request-dt}}",
+						"type": "text"
 					},
 					{
 						"key": "entity-request-dt",
-						"value": "2017-01-24T05:00:00"
+						"value": "{{entity-request-dt}}",
+						"type": "text"
 					},
 					{
 						"key": "transaction-reference",
-						"value": "2017-01-24T05:00:00"
+						"value": "{{transaction-reference}}",
+						"type": "text"
 					}
 				],
 				"url": {
-					"raw": "{{base-url}}/fd/entities/2/keys/f6619c21-cc25-4dc1-9548-71a8d35b2f5d",
+					"raw": "{{base-url}}/fd/entities/{{entidad}}/keys/b45ebd50-d1b1-412e-ab54-b2d0f6e15ab0",
 					"host": [
 						"{{base-url}}"
 					],
 					"path": [
 						"fd",
 						"entities",
-						"2",
+						"{{entidad}}",
 						"keys",
-						"f6619c21-cc25-4dc1-9548-71a8d35b2f5d"
+						"b45ebd50-d1b1-412e-ab54-b2d0f6e15ab0"
 					]
 				}
 			},

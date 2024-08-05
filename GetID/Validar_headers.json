@@ -1,10 +1,10 @@
 {
 	"info": {
-		"_postman_id": "2e466f4e-91ae-4edf-9d88-ecdbd9e4551b",
+		"_postman_id": "086e52da-d023-4a3e-ac2d-32539dbeffea",
 		"name": "Directorio federado headers get id",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "29460625",
-		"_collection_link": "https://red-satellite-829132.postman.co/workspace/Federado-nuevo~be46dd53-09bf-4d08-9158-34941a6d4d79/collection/29460625-2e466f4e-91ae-4edf-9d88-ecdbd9e4551b?action=share&source=collection_link&creator=29460625"
+		"_collection_link": "https://red-satellite-829132.postman.co/workspace/Federado-nuevo~be46dd53-09bf-4d08-9158-34941a6d4d79/collection/29460625-086e52da-d023-4a3e-ac2d-32539dbeffea?action=share&source=collection_link&creator=29460625"
 	},
 	"item": [
 		{
@@ -47,14 +47,14 @@
 					}
 				],
 				"url": {
-					"raw": "{{base-url}}/fd/entities/2/keys/{{id}}",
+					"raw": "{{base-url}}/fd/entities/{{entidad}}/keys/{{id}}",
 					"host": [
 						"{{base-url}}"
 					],
 					"path": [
 						"fd",
 						"entities",
-						"2",
+						"{{entidad}}",
 						"keys",
 						"{{id}}"
 					]
