@@ -105,14 +105,14 @@
 					}
 				},
 				"url": {
-					"raw": "{{base-url}}/fd/entities/2/keys",
+					"raw": "{{base-url}}/fd/entities/{{entidad}}/keys",
 					"host": [
 						"{{base-url}}"
 					],
 					"path": [
 						"fd",
 						"entities",
-						"2",
+						"{{entidad}}",
 						"keys"
 					]
 				}
