@@ -167,7 +167,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"status\": {{status}},\r\n \r\n  \"account\": {\r\n    \"accountType\": {{accountType}},\r\n            \"accountNumber\":{{accountNumber}},\r\n            \"signer\": {{signer}}\r\n  }\r\n}",
+					"raw": "{\r\n  \"status\": \"INACTIVE\",\r\n \r\n  \"account\": {\r\n    \"accountType\": {{accountType}},\r\n            \"accountNumber\":{{accountNumber}},\r\n            \"signer\": {{signer}}\r\n  }\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -267,7 +267,7 @@
 					}
 				},
 				"url": {
-					"raw": "{{base-url}}/fd/entities/{{entidad}}/keys/{{Keyid}}",
+					"raw": "{{base-url}}/fd/entities/{{entidad}}/keys/{{id}}",
 					"host": [
 						"{{base-url}}"
 					],
@@ -276,7 +276,7 @@
 						"entities",
 						"{{entidad}}",
 						"keys",
-						"{{Keyid}}"
+						"{{id}}"
 					]
 				}
 			},
@@ -451,7 +451,7 @@
 					}
 				},
 				"url": {
-					"raw": "{{base-url}}/fd/entities/{{entidad}}/keys/{{Keyid}}",
+					"raw": "{{base-url}}/fd/entities/{{entidad}}/keys/{{id}}",
 					"host": [
 						"{{base-url}}"
 					],
@@ -460,7 +460,7 @@
 						"entities",
 						"{{entidad}}",
 						"keys",
-						"{{Keyid}}"
+						"{{id}}"
 					]
 				}
 			},
@@ -543,7 +543,7 @@
 					}
 				},
 				"url": {
-					"raw": "{{base-url}}/fd/entities/{{entidad}}/keys/{{Keyid}}",
+					"raw": "{{base-url}}/fd/entities/{{entidad}}/keys/{{id}}",
 					"host": [
 						"{{base-url}}"
 					],
@@ -552,7 +552,7 @@
 						"entities",
 						"{{entidad}}",
 						"keys",
-						"{{Keyid}}"
+						"{{id}}"
 					]
 				}
 			},
@@ -635,7 +635,7 @@
 					}
 				},
 				"url": {
-					"raw": "{{base-url}}/fd/entities/{{entidad}}/keys/{{Keyid}}",
+					"raw": "{{base-url}}/fd/entities/{{entidad}}/keys/{{id}}",
 					"host": [
 						"{{base-url}}"
 					],
@@ -644,7 +644,7 @@
 						"entities",
 						"{{entidad}}",
 						"keys",
-						"{{Keyid}}"
+						"{{id}}"
 					]
 				}
 			},
@@ -719,7 +719,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"status\": \"INACTIVE\",\r\n   \"spbvi\": \"TFY\",\r\n  \"account\": {\r\n    \"accountType\": {{accountType}},\r\n            \"accountNumber\":{{accountNumber}},\r\n            \"signer\": {{signer}}\r\n  }\r\n}",
+					"raw": "{\r\n  \"status\": \"ACTIVE\",\r\n   \"spbvi\": \"TFY\",\r\n  \"account\": {\r\n    \"accountType\": {{accountType}},\r\n            \"accountNumber\":{{accountNumber}},\r\n            \"signer\": {{signer}}\r\n  }\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -727,7 +727,7 @@
 					}
 				},
 				"url": {
-					"raw": "{{base-url}}/fd/entities/{{entidad}}/keys/{{Keyid}}",
+					"raw": "{{base-url}}/fd/entities/{{entidad}}/keys/{{id}}",
 					"host": [
 						"{{base-url}}"
 					],
@@ -736,7 +736,7 @@
 						"entities",
 						"{{entidad}}",
 						"keys",
-						"{{Keyid}}"
+						"{{id}}"
 					]
 				}
 			},
@@ -1815,7 +1815,7 @@
 					}
 				},
 				"url": {
-					"raw": "{{base-url}}/fd/entities/{{entidad}}/keys/68bd2d29-261b-4657-aca8-53aa6aaa3b5a",
+					"raw": "{{base-url}}/fd/entities/{{entidad}}/keys/14feb780-1d2b-49d5-99a2-3209824c9a4c",
 					"host": [
 						"{{base-url}}"
 					],
@@ -1824,7 +1824,7 @@
 						"entities",
 						"{{entidad}}",
 						"keys",
-						"68bd2d29-261b-4657-aca8-53aa6aaa3b5a"
+						"14feb780-1d2b-49d5-99a2-3209824c9a4c"
 					]
 				}
 			},
@@ -1911,7 +1911,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n \"status\": \"ACTIVE\",\r\n  \"spbvi\": \"TFY\",\r\n  \"account\": {\r\n    \"accountType\": \"ORDINARY_DEPOSIT\",\r\n            \"accountNumber\": \"7550773932\",\r\n            \"signer\": \"323232\"\r\n  }\r\n}",
+					"raw": "{\r\n \"status\": \"ACTIVE\",\r\n  \"spbvi\": \"TFY\",\r\n  \"account\": {\r\n    \"accountType\": \"ORDINARY_DEPOSIT\",\r\n            \"accountNumber\": \"7550773932\",\r\n            \"signer\": \"323243232432\"\r\n  }\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -1919,7 +1919,7 @@
 					}
 				},
 				"url": {
-					"raw": "{{base-url}}/fd/entities/{{entidad}}/keys/6f0f6885-058b-4796-9f85-cea4fcb262d2",
+					"raw": "{{base-url}}/fd/entities/{{entidad}}/keys/14feb780-1d2b-49d5-99a2-3209824c9a4c",
 					"host": [
 						"{{base-url}}"
 					],
@@ -1928,7 +1928,7 @@
 						"entities",
 						"{{entidad}}",
 						"keys",
-						"6f0f6885-058b-4796-9f85-cea4fcb262d2"
+						"14feb780-1d2b-49d5-99a2-3209824c9a4c"
 					]
 				}
 			},
@@ -2023,7 +2023,7 @@
 					}
 				},
 				"url": {
-					"raw": "{{base-url}}/fd/entities/{{entidad}}/keys/cbf072ab-ab97-4d98-ae39-d304dd0129b0",
+					"raw": "{{base-url}}/fd/entities/{{entidad}}/keys/b45ebd50-d1b1-412e-ab54-b2d0f6e15ab0",
 					"host": [
 						"{{base-url}}"
 					],
@@ -2032,7 +2032,7 @@
 						"entities",
 						"{{entidad}}",
 						"keys",
-						"cbf072ab-ab97-4d98-ae39-d304dd0129b0"
+						"b45ebd50-d1b1-412e-ab54-b2d0f6e15ab0"
 					]
 				}
 			},

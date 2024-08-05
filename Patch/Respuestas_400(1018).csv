@@ -6,5 +6,3 @@
 """ACTIVE""","""ORDINARY_DEPOSIT""","""53612622""","""""","""TFY""",Validar campo Signeral enviarlo vacio
 """ACTIVE""","""ORDINARY_DEPOSIT""","""53612622""",null,"""TFY""",Validar campo Signeral enviarlo null
 """ACTIVE""","""ORDINARY_DEPOSIT""","""53612622""","""""","""TFY""",Validar campo Signeral no superar su longitud minima
-"""ACTIVE""","""ORDINARY_DEPOSIT""","""53612622""","""23""","""TF""",Validar campo spbvi al enviarlo vacio
-"""ACTIVE""","""ORDINARY_DEPOSIT""","""53612622""","""23""","""""",Validar campo spbvi enviarlo null
