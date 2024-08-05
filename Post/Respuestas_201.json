@@ -68,6 +68,31 @@
 					{
 						"key": "client-secret",
 						"value": "{{client-secret}}"
+					},
+					{
+						"key": "message-uuid",
+						"value": "{{message-uuid}}",
+						"type": "text"
+					},
+					{
+						"key": "request-app-id",
+						"value": "{{request-app-id}}",
+						"type": "text"
+					},
+					{
+						"key": "customer-request-dt",
+						"value": "{{customer-request-dt}}",
+						"type": "text"
+					},
+					{
+						"key": "entity-request-dt",
+						"value": "{{entity-request-dt}}",
+						"type": "text"
+					},
+					{
+						"key": "transaction-reference",
+						"value": "{{transaction-reference}}",
+						"type": "text"
 					}
 				],
 				"body": {
