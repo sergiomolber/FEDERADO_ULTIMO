@@ -535,7 +535,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"status\": {{status}},\r\n   \"spbvi\": \"TFY\",\r\n  \"account\": {\r\n    \"accountType\": {{accountType}},\r\n            \"accountNumber\":{{accountNumber}},\r\n            \"signer\": {{signer}}\r\n  }\r\n}",
+					"raw": "{\r\n  \"status\": \"INACTIVE\",\r\n   \"spbvi\": \"TFY\",\r\n  \"account\": {\r\n    \"accountType\": {{accountType}},\r\n            \"accountNumber\":{{accountNumber}},\r\n            \"signer\": {{signer}}\r\n  }\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -627,7 +627,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"status\": {{status}},\r\n   \"spbvi\": \"TFY\",\r\n  \"account\": {\r\n    \"accountType\": {{accountType}},\r\n            \"accountNumber\":{{accountNumber}},\r\n            \"signer\": {{signer}}\r\n  }\r\n}",
+					"raw": "{\r\n  \"status\": \"INACTIVE\",\r\n   \"spbvi\": \"TFY\",\r\n  \"account\": {\r\n    \"accountType\": {{accountType}},\r\n            \"accountNumber\":{{accountNumber}},\r\n            \"signer\": {{signer}}\r\n  }\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -719,7 +719,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"status\": {{status}},\r\n   \"spbvi\": \"TFY\",\r\n  \"account\": {\r\n    \"accountType\": {{accountType}},\r\n            \"accountNumber\":{{accountNumber}},\r\n            \"signer\": {{signer}}\r\n  }\r\n}",
+					"raw": "{\r\n    \"status\": \"INACTIVE\",\r\n   \"spbvi\": \"TFY\",\r\n  \"account\": {\r\n    \"accountType\": {{accountType}},\r\n            \"accountNumber\":{{accountNumber}},\r\n            \"signer\": {{signer}}\r\n  }\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
