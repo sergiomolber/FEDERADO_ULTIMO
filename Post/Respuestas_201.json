@@ -1,0 +1,160 @@
+{
+	"info": {
+		"_postman_id": "3a99107b-fa4c-48ca-bff0-f1224dee8288",
+		"name": "Codigo 201 Federado",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29460625",
+		"_collection_link": "https://red-satellite-829132.postman.co/workspace/Federado-nuevo~be46dd53-09bf-4d08-9158-34941a6d4d79/collection/29460625-3a99107b-fa4c-48ca-bff0-f1224dee8288?action=share&source=collection_link&creator=29460625"
+	},
+	"item": [
+		{
+			"name": "Crear Llave 201",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"// Asegúrate de que la respuesta está en el formato JSON\r",
+							"pm.test(\"Status code is 201\", function () {\r",
+							"    pm.response.to.have.status(201);\r",
+							"});\r",
+							"\r",
+							"// Imprimir el comentario en la consola de Newman\r",
+							"console.log(\"Comentario del caso de prueba: \", pm.iterationData.get(\"comentario\"));"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"const randomNumber = _.random(10000000,99999999)\r",
+							"pm.variables.set(\"randomNumber\", randomNumber );\r",
+							"\r",
+							"// Genera un valor aleatorio\r",
+							"let randomValue = Math.random();\r",
+							"\r",
+							"// Determina el valor basado en el valor aleatorio\r",
+							"let valuekey;\r",
+							"if (randomValue < 0.2) {\r",
+							"    valuekey = \"ID\";\r",
+							"} else if (randomValue < 0.4) {\r",
+							"    valuekey = \"CEL\";\r",
+							"} else if (randomValue < 0.6) {\r",
+							"    valuekey = \"EMAIL\";\r",
+							"} else if (randomValue < 0.8) {\r",
+							"    valuekey = \"MERCHANTID\";\r",
+							"} else {\r",
+							"    valuekey = \"ALFANUMERIC\";\r",
+							"}\r",
+							"\r",
+							"// Guarda el valor en una variable de entorno o de colección\r",
+							"pm.environment.set(\"randomvaluekey\", valuekey);"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "client-id",
+						"value": "{{client-id}}"
+					},
+					{
+						"key": "client-secret",
+						"value": "{{client-secret}}"
+					},
+					{
+						"key": "message-uuid",
+						"value": "{{message-uuid}}",
+						"type": "text"
+					},
+					{
+						"key": "request-app-id",
+						"value": "{{request-app-id}}",
+						"type": "text"
+					},
+					{
+						"key": "customer-request-dt",
+						"value": "{{customer-request-dt}}",
+						"type": "text"
+					},
+					{
+						"key": "entity-request-dt",
+						"value": "{{entity-request-dt}}",
+						"type": "text"
+					},
+					{
+						"key": "transaction-reference",
+						"value": "{{transaction-reference}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"user\": {\r\n    \"firstName\": {{firstName}},\r\n    \"secondName\": {{secondName}},\r\n    \"firstLastName\": {{firstLastName}},\r\n    \"secondLastName\": {{secondLastName}},\r\n    \"documentType\": {{documentType}},\r\n    \"documentNumber\": {{documentNumber}},\r\n    \"userType\": {{userType}},\r\n    \"merchantName\": {{merchantName}}\r\n  },\r\n  \"account\": {\r\n    \"accountType\": {{accountType}},\r\n    \"accountNumber\": {{accountNumber}},\r\n    \"entityCode\": {{entityCode}},\r\n    \"signer\":{{signer}}\r\n  },\r\n  \"key\": {\r\n    \"keyType\": {{keyType}},\r\n    \"keyValue\": {{keyValue}},\r\n    \"spbvi\": {{spbvi}}\r\n  }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base-url}}/fd/entities/2/keys",
+					"host": [
+						"{{base-url}}"
+					],
+					"path": [
+						"fd",
+						"entities",
+						"2",
+						"keys"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "base-url",
+			"value": "https://directoriofederado.crt.transfiya.com.co/ext/transfiya",
+			"type": "string"
+		},
+		{
+			"key": "client-id",
+			"value": "73cd505c2a470195b66dd32323bd5a96"
+		},
+		{
+			"key": "client-secret",
+			"value": "3aaef6b22a2e6c3c02e361d60db39aa0"
+		}
+	]
+}

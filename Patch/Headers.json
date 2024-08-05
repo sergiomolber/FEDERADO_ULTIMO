@@ -1,0 +1,75 @@
+{
+	"info": {
+		"_postman_id": "bf4e97f8-0d7d-41be-bb90-30cc4de8b729",
+		"name": "Directorio federado headers get id",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29460625",
+		"_collection_link": "https://red-satellite-829132.postman.co/workspace/Federado-nuevo~be46dd53-09bf-4d08-9158-34941a6d4d79/collection/29460625-bf4e97f8-0d7d-41be-bb90-30cc4de8b729?action=share&source=collection_link&creator=29460625"
+	},
+	"item": [
+		{
+			"name": "Consultar Llave id headers",
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "client-id",
+						"value": "73cd505c2a470195b66dd32323bd5a96"
+					},
+					{
+						"key": "client-secret",
+						"value": "3aaef6b22a2e6c3c02e361d60db39aa0"
+					},
+					{
+						"key": "message-uuid",
+						"value": "{{message-uuid}}",
+						"type": "text"
+					},
+					{
+						"key": "request-app-id",
+						"value": "{{request-app-id}}",
+						"type": "text"
+					},
+					{
+						"key": "customer-request-dt",
+						"value": "{{customer-request-dt}}",
+						"type": "text"
+					},
+					{
+						"key": "entity-request-dt",
+						"value": "{{entity-request-dt}}",
+						"type": "text"
+					},
+					{
+						"key": "transaction-reference",
+						"value": "{{transaction-reference}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"status\": \"LOCK\",\r\n  \"spbvi\": \"TFY\",\r\n  \"account\": {\r\n    \"accountType\": \"{{accountType}}\",\r\n            \"accountNumber\": \"{{accountNumber}}\",\r\n            \"signer\": \"{{signer}}\"\r\n  }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base-url}}/fd/entities/2/keys/{{id}}",
+					"host": [
+						"{{base-url}}"
+					],
+					"path": [
+						"fd",
+						"entities",
+						"2",
+						"keys",
+						"{{id}}"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
