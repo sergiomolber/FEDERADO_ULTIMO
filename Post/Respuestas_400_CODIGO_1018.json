@@ -96,7 +96,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"user\": {\r\n    \"firstName\": {{firstName}},\r\n    \"secondName\": {{secondName}},\r\n    \"firstLastName\": {{firstLastName}},\r\n    \"secondLastName\": {{secondLastName}},\r\n    \"documentType\": {{documentType}},\r\n    \"documentNumber\": {{documentNumber}},\r\n    \"userType\": {{userType}},\r\n    \"merchantName\": {{merchantName}}\r\n  },\r\n  \"account\": {\r\n    \"accountType\": {{accountType}},\r\n    \"accountNumber\": {{accountNumber}},\r\n    \"entityCode\": {{entityCode}},\r\n    \"signer\":{{signer}}\r\n  },\r\n  \"key\": {\r\n    \"keyType\": {{keyType}},\r\n    \"keyValue\": {{keyValue}},\r\n    \"spbvi\": \"{{spbvi}}\"\r\n  }\r\n}",
+					"raw": "{\r\n  \"user\": {\r\n    \"firstName\": {{firstName}},\r\n    \"secondName\": {{secondName}},\r\n    \"firstLastName\": {{firstLastName}},\r\n    \"secondLastName\": {{secondLastName}},\r\n    \"documentType\": {{documentType}},\r\n    \"documentNumber\": {{documentNumber}},\r\n    \"userType\": {{userType}},\r\n    \"merchantName\": {{merchantName}}\r\n  },\r\n  \"account\": {\r\n    \"accountType\": {{accountType}},\r\n    \"accountNumber\": {{accountNumber}},\r\n    \"entityCode\": {{entityCode}},\r\n    \"signer\":{{signer}}\r\n  },\r\n  \"key\": {\r\n    \"keyType\": {{keyType}},\r\n    \"keyValue\": {{keyValue}},\r\n    \"spbvi\": {{spbvi}}\r\n  }\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
