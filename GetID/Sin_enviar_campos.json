@@ -805,14 +805,14 @@
 					}
 				],
 				"url": {
-					"raw": "{{base-url}}/fd/entities/{{entidad}}/keys/{{id}}",
+					"raw": "{{base-url}}/fd/entities/6209374b-edf1-4bf1-a4ee-ef85c8765fee/keys/{{id}}",
 					"host": [
 						"{{base-url}}"
 					],
 					"path": [
 						"fd",
 						"entities",
-						"{{entidad}}",
+						"6209374b-edf1-4bf1-a4ee-ef85c8765fee",
 						"keys",
 						"{{id}}"
 					]
@@ -1183,7 +1183,7 @@
 				"header": [
 					{
 						"key": "client-id",
-						"value": "{{client-id}}"
+						"value": "{{client-id}"
 					},
 					{
 						"key": "client-secret",
@@ -1211,14 +1211,14 @@
 					}
 				],
 				"url": {
-					"raw": "{{base-url}}/fd/entities/2/keys/{{id}}",
+					"raw": "{{base-url}}/fd/entities/{{entidad}}/keys/{{id}}",
 					"host": [
 						"{{base-url}}"
 					],
 					"path": [
 						"fd",
 						"entities",
-						"2",
+						"{{entidad}}",
 						"keys",
 						"{{id}}"
 					]
