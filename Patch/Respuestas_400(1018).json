@@ -1,10 +1,10 @@
 {
 	"info": {
-		"_postman_id": "16df4ac5-a199-4523-91d7-40779f5e7b10",
+		"_postman_id": "ebab868a-7c7f-4230-bc2a-031d231dd582",
 		"name": "Patch codigo 400-1018",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "29460625",
-		"_collection_link": "https://red-satellite-829132.postman.co/workspace/Federado-nuevo~be46dd53-09bf-4d08-9158-34941a6d4d79/collection/29460625-16df4ac5-a199-4523-91d7-40779f5e7b10?action=share&source=collection_link&creator=29460625"
+		"_collection_link": "https://red-satellite-829132.postman.co/workspace/Federado-nuevo~be46dd53-09bf-4d08-9158-34941a6d4d79/collection/29460625-ebab868a-7c7f-4230-bc2a-031d231dd582?action=share&source=collection_link&creator=29460625"
 	},
 	"item": [
 		{
@@ -93,14 +93,14 @@
 					}
 				},
 				"url": {
-					"raw": "{{base-url}}/fd/entities/2/keys/{{id}}",
+					"raw": "{{base-url}}/fd/entities/{{entidad}}/keys/{{id}}",
 					"host": [
 						"{{base-url}}"
 					],
 					"path": [
 						"fd",
 						"entities",
-						"2",
+						"{{entidad}}",
 						"keys",
 						"{{id}}"
 					]

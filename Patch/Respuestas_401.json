@@ -1,10 +1,10 @@
 {
 	"info": {
-		"_postman_id": "8e170275-b193-4487-a2a7-2e61441dd953",
+		"_postman_id": "a2ec9131-d148-4b3c-ba72-89216e2f47c8",
 		"name": "Patch codigos 401",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "29460625",
-		"_collection_link": "https://red-satellite-829132.postman.co/workspace/Federado-nuevo~be46dd53-09bf-4d08-9158-34941a6d4d79/collection/29460625-8e170275-b193-4487-a2a7-2e61441dd953?action=share&source=collection_link&creator=29460625"
+		"_collection_link": "https://red-satellite-829132.postman.co/workspace/Federado-nuevo~be46dd53-09bf-4d08-9158-34941a6d4d79/collection/29460625-a2ec9131-d148-4b3c-ba72-89216e2f47c8?action=share&source=collection_link&creator=29460625"
 	},
 	"item": [
 		{
@@ -90,14 +90,14 @@
 					}
 				},
 				"url": {
-					"raw": "{{base-url}}/fd/entities/2/keys/{{id}}",
+					"raw": "{{base-url}}/fd/entities/{{entidad}}/keys/{{id}}",
 					"host": [
 						"{{base-url}}"
 					],
 					"path": [
 						"fd",
 						"entities",
-						"2",
+						"{{entidad}}",
 						"keys",
 						"{{id}}"
 					]
