@@ -1,10 +1,10 @@
 {
 	"info": {
-		"_postman_id": "cf5351cb-5cc3-4e94-858d-ac9c11ceeb9e",
+		"_postman_id": "52ee0d51-83cf-4690-9d7a-07d56e25732f",
 		"name": "Codigo (no enviado) Post",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "29460625",
-		"_collection_link": "https://red-satellite-829132.postman.co/workspace/Federado-nuevo~be46dd53-09bf-4d08-9158-34941a6d4d79/collection/29460625-cf5351cb-5cc3-4e94-858d-ac9c11ceeb9e?action=share&source=collection_link&creator=29460625"
+		"_collection_link": "https://red-satellite-829132.postman.co/workspace/Federado-nuevo~be46dd53-09bf-4d08-9158-34941a6d4d79/collection/29460625-52ee0d51-83cf-4690-9d7a-07d56e25732f?action=share&source=collection_link&creator=29460625"
 	},
 	"item": [
 		{
@@ -3331,6 +3331,117 @@
 				"body": {
 					"mode": "raw",
 					"raw": "{\r\n  \"user\": {\r\n    \"firstName\": \"Jhony 332\",\r\n    \"secondName\": \"Estevan 3\",\r\n    \"firstLastName\": \"Agudelo 3\",\r\n    \"secondLastName\": \"Villada 3\",\r\n \r\n    \"documentNumber\": \"{{randomNumber}}\",\r\n    \"userType\": \"PN\",\r\n    \"merchantName\": \"D552\"\r\n  },\r\n  \"account\": {\r\n    \"accountType\": \"SAVING_ACCOUNT\",\r\n    \"accountNumber\": \"{{randomNumber}}\",\r\n    \"entityCode\": \"1020\",\r\n    \"signer\":\"rewr34332\"\r\n  },\r\n  \"key\": {\r\n    \"keyType\": \"ID\",\r\n    \"keyValue\": \"{{randomNumber}}\",\r\n    \"spbvi\": \"TFY\"\r\n  }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base-url}}/fd/entities/{{entidad}}/keys",
+					"host": [
+						"{{base-url}}"
+					],
+					"path": [
+						"fd",
+						"entities",
+						"{{entidad}}",
+						"keys"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Validar codigo de error 1033",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"// Asegúrate de que la respuesta está en el formato JSON\r",
+							"pm.test(\"Status code is 409\", function () {\r",
+							"    pm.response.to.have.status(409);\r",
+							"});\r",
+							"\r",
+							"// captura la variable code es igual a 1018\r",
+							"const responseJson = pm.response.json();\r",
+							"const code = responseJson.errors[0].code;\r",
+							"const codenum = Number(code);\r",
+							"pm.environment.set(\"codenum\", codenum);\r",
+							"\r",
+							"pm.test(\"La variable de entorno 'code' es 1033\", function () {\r",
+							"  pm.expect(codenum).to.equal(1033); // Verifica si la variable es igual a 400\r",
+							"});\r",
+							"\r",
+							"// Imprimir el comentario en la consola de Newman\r",
+							"console.log(\"Comentario del caso de prueba: \", pm.iterationData.get(\"comentario\"));"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"const randomNumber = _.random(10000000,99999999)\r",
+							"pm.variables.set(\"randomNumber\", randomNumber );\r",
+							"\r",
+							"// Genera un valor aleatorio entre 0 y 1\r",
+							"let randomValue = Math.random();\r",
+							"\r",
+							"// Determina el estado basado en el valor aleatorio\r",
+							"let status = randomValue < 0.5 ? \"LOCK\" : \"ACTIVE\";\r",
+							"\r",
+							"// Guarda el estado en una variable de entorno o de colección\r",
+							"pm.environment.set(\"randomStatus\", status);"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "client-id",
+						"value": "{{client-id}}"
+					},
+					{
+						"key": "client-secret",
+						"value": "{{client-secret}}"
+					},
+					{
+						"key": "message-uuid",
+						"value": "{{message-uuid}}",
+						"type": "text"
+					},
+					{
+						"key": "request-app-id",
+						"value": "{{request-app-id}}",
+						"type": "text"
+					},
+					{
+						"key": "customer-request-dt",
+						"value": "{{customer-request-dt}}",
+						"type": "text"
+					},
+					{
+						"key": "entity-request-dt",
+						"value": "{{entity-request-dt}}",
+						"type": "text"
+					},
+					{
+						"key": "transaction-reference",
+						"value": "{{transaction-reference}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"user\": {\r\n    \"firstName\": \"Giovany\",\r\n    \"secondName\": \"Mauricio\",\r\n    \"firstLastName\": \"cuellar\",\r\n    \"secondLastName\": \"pena\",\r\n    \"documentType\": \"CC\",\r\n    \"documentNumber\": \"9899376583222\",\r\n    \"userType\": \"PJ\",\r\n    \"merchantName\": \"D552\"\r\n  },\r\n  \"account\": {\r\n    \"accountType\": \"CURRENT_ACCOUNT\",\r\n    \"accountNumber\": \"15242549\",\r\n    \"entityCode\": \"1031\",\r\n    \"signer\":\"393a86c2-5250-4c99-8a2b-d8aebab86c92\"\r\n  },\r\n  \"key\": {\r\n    \"keyType\": \"EMAIL\",\r\n    \"keyValue\": \"9899376582232\",\r\n    \"spbvi\": \"TFY\"\r\n  }\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
