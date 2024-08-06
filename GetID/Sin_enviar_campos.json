@@ -617,7 +617,7 @@
 							"const codenum = Number(code);\r",
 							"pm.environment.set(\"codenum\", codenum);\r",
 							"\r",
-							"pm.test(\"La variable de entorno 'code' es 1018\", function () {\r",
+							"pm.test(\"La variable de entorno 'code' es 1031\", function () {\r",
 							"  pm.expect(codenum).to.equal(1031); // Verifica si la variable es igual a 400\r",
 							"});"
 						],
@@ -690,7 +690,7 @@
 							"const codenum = Number(code);\r",
 							"pm.environment.set(\"codenum\", codenum);\r",
 							"\r",
-							"pm.test(\"La variable de entorno 'code' es 1018\", function () {\r",
+							"pm.test(\"La variable de entorno 'code' es 1031\", function () {\r",
 							"  pm.expect(codenum).to.equal(1031); // Verifica si la variable es igual a 400\r",
 							"});"
 						],
@@ -763,7 +763,7 @@
 							"const codenum = Number(code);\r",
 							"pm.environment.set(\"codenum\", codenum);\r",
 							"\r",
-							"pm.test(\"La variable de entorno 'code' es 1018\", function () {\r",
+							"pm.test(\"La variable de entorno 'code' es 1031\", function () {\r",
 							"  pm.expect(codenum).to.equal(1031); // Verifica si la variable es igual a 400\r",
 							"});"
 						],

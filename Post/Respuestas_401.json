@@ -1,14 +1,14 @@
 {
 	"info": {
-		"_postman_id": "5e33ace3-dd23-45fc-b4e6-7f2f708019b5",
+		"_postman_id": "03006264-d18f-4443-9282-8a65861d4d84",
 		"name": "Codigos 401 Post",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "29460625",
-		"_collection_link": "https://red-satellite-829132.postman.co/workspace/Federado-nuevo~be46dd53-09bf-4d08-9158-34941a6d4d79/collection/29460625-5e33ace3-dd23-45fc-b4e6-7f2f708019b5?action=share&source=collection_link&creator=29460625"
+		"_collection_link": "https://red-satellite-829132.postman.co/workspace/Federado-nuevo~be46dd53-09bf-4d08-9158-34941a6d4d79/collection/29460625-03006264-d18f-4443-9282-8a65861d4d84?action=share&source=collection_link&creator=29460625"
 	},
 	"item": [
 		{
-			"name": "Crear Llave",
+			"name": "Crear Llave codigo 401",
 			"event": [
 				{
 					"listen": "test",
