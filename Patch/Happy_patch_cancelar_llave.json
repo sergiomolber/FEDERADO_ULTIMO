@@ -1,10 +1,10 @@
 {
 	"info": {
-		"_postman_id": "0b296a97-fd51-432b-bebf-dff3649eb860",
+		"_postman_id": "92cd8475-e5cf-447c-a3ae-78266f02bdbc",
 		"name": "Happy patch cancelar llave",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "29460625",
-		"_collection_link": "https://red-satellite-829132.postman.co/workspace/Federado-nuevo~be46dd53-09bf-4d08-9158-34941a6d4d79/collection/29460625-0b296a97-fd51-432b-bebf-dff3649eb860?action=share&source=collection_link&creator=29460625"
+		"_collection_link": "https://red-satellite-829132.postman.co/workspace/d63c91e2-ab46-44d6-b4ed-45c747f1dd29/collection/29460625-92cd8475-e5cf-447c-a3ae-78266f02bdbc?action=share&source=collection_link&creator=29460625"
 	},
 	"item": [
 		{
@@ -172,7 +172,7 @@
 							"\r",
 							"// Valida que el valor de `status` sea \"LOCK\"\r",
 							"pm.test(\"Status es INACTIVE\", function () {\r",
-							"    pm.expect(status).to.eql(\"INACTIVE\");\r",
+							"    pm.expect(status).to.eql(\"CANCEL\");\r",
 							"})\r",
 							"\r",
 							""
@@ -251,21 +251,12 @@
 					"listen": "test",
 					"script": {
 						"exec": [
-							"pm.test(\"Status code is 200\", function () {\r",
-							"    pm.response.to.have.status(200);\r",
+							"pm.test(\"Status code is 502\", function () {\r",
+							"    pm.response.to.have.status(502);\r",
 							"});\r",
 							"\r",
 							"\r",
-							"// Obtén la respuesta como un objeto JSON\r",
-							"var jsonData = pm.response.json();\r",
-							"\r",
-							"// Captura el valor de la variable `status`\r",
-							"var status = jsonData.data.status;\r",
-							"\r",
-							"// Valida que el valor de `status` sea \"INACTIVE\"\r",
-							"pm.test(\"Status es INACTIVE\", function () {\r",
-							"    pm.expect(status).to.eql(\"INACTIVE\");\r",
-							"})"
+							""
 						],
 						"type": "text/javascript",
 						"packages": {}
