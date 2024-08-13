@@ -1,10 +1,10 @@
 {
 	"info": {
-		"_postman_id": "65ac53d0-f0a9-4c10-a408-a281657ef416",
+		"_postman_id": "bd4771db-a9f1-4422-8d84-dc81475122a6",
 		"name": "Directorio Federado codigos 400-1018",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "29460625",
-		"_collection_link": "https://red-satellite-829132.postman.co/workspace/Federado-nuevo~be46dd53-09bf-4d08-9158-34941a6d4d79/collection/29460625-65ac53d0-f0a9-4c10-a408-a281657ef416?action=share&source=collection_link&creator=29460625"
+		"_collection_link": "https://red-satellite-829132.postman.co/workspace/d63c91e2-ab46-44d6-b4ed-45c747f1dd29/collection/29460625-bd4771db-a9f1-4422-8d84-dc81475122a6?action=share&source=collection_link&creator=29460625"
 	},
 	"item": [
 		{
@@ -139,21 +139,6 @@
 					""
 				]
 			}
-		}
-	],
-	"variable": [
-		{
-			"key": "base-url",
-			"value": "https://directoriofederado.crt.transfiya.com.co/ext/transfiya",
-			"type": "string"
-		},
-		{
-			"key": "client-id",
-			"value": "73cd505c2a470195b66dd32323bd5a96"
-		},
-		{
-			"key": "client-secret",
-			"value": "3aaef6b22a2e6c3c02e361d60db39aa0"
 		}
 	]
 }

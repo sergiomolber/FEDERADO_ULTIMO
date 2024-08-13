@@ -1,10 +1,10 @@
 {
 	"info": {
-		"_postman_id": "52ee0d51-83cf-4690-9d7a-07d56e25732f",
+		"_postman_id": "680662e9-ae19-4b6b-8820-25c72698c1bb",
 		"name": "Codigo (no enviado) Post",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "29460625",
-		"_collection_link": "https://red-satellite-829132.postman.co/workspace/Federado-nuevo~be46dd53-09bf-4d08-9158-34941a6d4d79/collection/29460625-52ee0d51-83cf-4690-9d7a-07d56e25732f?action=share&source=collection_link&creator=29460625"
+		"_collection_link": "https://red-satellite-829132.postman.co/workspace/d63c91e2-ab46-44d6-b4ed-45c747f1dd29/collection/29460625-680662e9-ae19-4b6b-8820-25c72698c1bb?action=share&source=collection_link&creator=29460625"
 	},
 	"item": [
 		{
@@ -3781,21 +3781,6 @@
 					""
 				]
 			}
-		}
-	],
-	"variable": [
-		{
-			"key": "base-url",
-			"value": "https://directoriofederado.crt.transfiya.com.co/ext/transfiya",
-			"type": "string"
-		},
-		{
-			"key": "client-id",
-			"value": "73cd505c2a470195b66dd32323bd5a96"
-		},
-		{
-			"key": "client-secret",
-			"value": "3aaef6b22a2e6c3c02e361d60db39aa0"
 		}
 	]
 }

@@ -1,10 +1,10 @@
 {
 	"info": {
-		"_postman_id": "a965bc9b-36ce-4336-8611-231ba3485a31",
+		"_postman_id": "612de3d6-92c3-4c6c-b546-a540b6e051cf",
 		"name": "Directorio Federado CODIGOS 400-1013",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "29460625",
-		"_collection_link": "https://red-satellite-829132.postman.co/workspace/Federado-nuevo~be46dd53-09bf-4d08-9158-34941a6d4d79/collection/29460625-a965bc9b-36ce-4336-8611-231ba3485a31?action=share&source=collection_link&creator=29460625"
+		"_collection_link": "https://red-satellite-829132.postman.co/workspace/d63c91e2-ab46-44d6-b4ed-45c747f1dd29/collection/29460625-612de3d6-92c3-4c6c-b546-a540b6e051cf?action=share&source=collection_link&creator=29460625"
 	},
 	"item": [
 		{
@@ -139,21 +139,6 @@
 					""
 				]
 			}
-		}
-	],
-	"variable": [
-		{
-			"key": "base-url",
-			"value": "https://directoriofederado.crt.transfiya.com.co/ext/transfiya",
-			"type": "string"
-		},
-		{
-			"key": "client-id",
-			"value": "73cd505c2a470195b66dd32323bd5a96"
-		},
-		{
-			"key": "client-secret",
-			"value": "3aaef6b22a2e6c3c02e361d60db39aa0"
 		}
 	]
 }
