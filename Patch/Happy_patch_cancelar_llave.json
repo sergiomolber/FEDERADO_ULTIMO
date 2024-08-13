@@ -171,7 +171,7 @@
 							"var status = jsonData.data.status;\r",
 							"\r",
 							"// Valida que el valor de `status` sea \"LOCK\"\r",
-							"pm.test(\"Status es INACTIVE\", function () {\r",
+							"pm.test(\"Status es CANCEL\", function () {\r",
 							"    pm.expect(status).to.eql(\"CANCEL\");\r",
 							"})\r",
 							"\r",
