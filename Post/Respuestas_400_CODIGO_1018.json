@@ -4,11 +4,11 @@
 		"name": "Directorio Federado codigos 400-1018",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "29460625",
-		"_collection_link": "https://red-satellite-829132.postman.co/workspace/d63c91e2-ab46-44d6-b4ed-45c747f1dd29/collection/29460625-bd4771db-a9f1-4422-8d84-dc81475122a6?action=share&source=collection_link&creator=29460625"
+		"_collection_link": "https://red-satellite-829132.postman.co/workspace/federado~d63c91e2-ab46-44d6-b4ed-45c747f1dd29/collection/29460625-bd4771db-a9f1-4422-8d84-dc81475122a6?action=share&source=collection_link&creator=29460625"
 	},
 	"item": [
 		{
-			"name": "Crear Llave codigo 400-1013",
+			"name": "Crear Llave codigo 400-1018",
 			"event": [
 				{
 					"listen": "test",
