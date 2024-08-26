@@ -1,24 +1,41 @@
 {
 	"info": {
-		"_postman_id": "a50f1727-e20a-4da4-a44c-296889849cb6",
-		"name": "Directorio federado headers POST",
+		"_postman_id": "f995b82b-de16-4843-945d-720a645d664a",
+		"name": "Directorio federado headers POST Copy",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "29460625",
-		"_collection_link": "https://red-satellite-829132.postman.co/workspace/Federado-nuevo~be46dd53-09bf-4d08-9158-34941a6d4d79/collection/29460625-a50f1727-e20a-4da4-a44c-296889849cb6?action=share&source=collection_link&creator=29460625"
+		"_collection_link": "https://red-satellite-829132.postman.co/workspace/federado~d63c91e2-ab46-44d6-b4ed-45c747f1dd29/collection/29460625-f995b82b-de16-4843-945d-720a645d664a?source=collection_link"
 	},
 	"item": [
 		{
 			"name": "Crear llave headers",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"// Asegúrate de que la respuesta está en el formato JSON\r",
+							"pm.test(\"Status code is 400\", function () {\r",
+							"    pm.response.to.have.status(400);\r",
+							"});\r",
+							"// Imprimir el comentario en la consola de Newman\r",
+							"console.log(\"Comentario del caso de prueba: \", pm.iterationData.get(\"comentario\"));"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
 			"request": {
 				"method": "POST",
 				"header": [
 					{
 						"key": "client-id",
-						"value": "73cd505c2a470195b66dd32323bd5a96"
+						"value": "{{client-id}}"
 					},
 					{
 						"key": "client-secret",
-						"value": "3aaef6b22a2e6c3c02e361d60db39aa0"
+						"value": "{{client-secret}}"
 					},
 					{
 						"key": "message-uuid",
