@@ -1,10 +1,10 @@
 {
 	"info": {
 		"_postman_id": "f995b82b-de16-4843-945d-720a645d664a",
-		"name": "Directorio federado headers POST Copy",
+		"name": "Directorio federado headers POST",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "29460625",
-		"_collection_link": "https://red-satellite-829132.postman.co/workspace/federado~d63c91e2-ab46-44d6-b4ed-45c747f1dd29/collection/29460625-f995b82b-de16-4843-945d-720a645d664a?source=collection_link"
+		"_collection_link": "https://red-satellite-829132.postman.co/workspace/federado~d63c91e2-ab46-44d6-b4ed-45c747f1dd29/collection/29460625-f995b82b-de16-4843-945d-720a645d664a?action=share&source=collection_link&creator=29460625"
 	},
 	"item": [
 		{
@@ -20,6 +20,35 @@
 							"});\r",
 							"// Imprimir el comentario en la consola de Newman\r",
 							"console.log(\"Comentario del caso de prueba: \", pm.iterationData.get(\"comentario\"));"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"const randomNumber = _.random(10000000,99999999)\r",
+							"pm.variables.set(\"randomNumber\", randomNumber );\r",
+							"\r",
+							"const randomCel = _.random(100000000,999999999)\r",
+							"pm.variables.set(\"randomCel\", randomCel );\r",
+							"// Array de posibles valores para accountType\r",
+							"// Array de posibles valores para accountType\r",
+							"const accountTypes = [\r",
+							"    \"SAVING_ACCOUNT\",\r",
+							"    \"CURRENT_ACCOUNT\",\r",
+							"    \"LOW_DEPOSIT\",\r",
+							"    \"ORDINARY_DEPOSIT\",\r",
+							"    \"INCLUSIVE_LOW_AMOUNT\"\r",
+							"];\r",
+							"\r",
+							"// Seleccionar un valor aleatorio del array\r",
+							"const randomAccountType = accountTypes[Math.floor(Math.random() * accountTypes.length)];\r",
+							"\r",
+							"// Establecer la variable en el entorno de Postman\r",
+							"pm.environment.set(\"accountType\", randomAccountType);"
 						],
 						"type": "text/javascript",
 						"packages": {}
